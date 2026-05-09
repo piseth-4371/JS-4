@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator App</title>
+    <link href="../output.css" rel="stylesheet">
+    <link href="../input.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-indigo-700 to-purple-200 h-screen">
+    <div class="container mx-auto mt-28 w-auto">
+        <h1 class="text-white text-6xl font-bold">
+            JavaScript <br><span class="text-amber-400">Age Calculator</span>
+        </h1>
+        <div class="containerDate bg-white/20 w-96 h-auto rounded-lg flex items-center justify-between p-5 my-10" >
+            <input type="date" class="w-56 h-auto rounded-md   text-md p-3" id="selectDate">
+            <button onclick="calculateAge()" class="btn bg-amber-300 rounded-md font-medium text-cyan-950 text-sm px-6  py-3 cursor-pointer">Calculate</button>
+        </div>
+        <p class="showAge hidden text-white text-lg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
